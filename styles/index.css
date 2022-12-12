@@ -5,7 +5,6 @@
 }
 
 .content {
-	width: 90%;
 	margin: 1rem auto;
 }
 
@@ -16,10 +15,17 @@ a {
 
 a:hover {
 	text-decoration: underline;
+	color: rgba(129, 211, 234, 1);
 }
 
 .social a:hover {
-	color: blue;
+	text-decoration: none;
+}
+
+nav,
+main {
+	width: 90%;
+	margin: 0 auto;
 }
 
 nav {
@@ -30,26 +36,48 @@ nav {
 	font-weight: bolder;
 }
 
+nav .pages {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	align-items: center;
+}
+
 body {
-	background-color: rgba(129, 211, 234, 0.4);
+	background-color: #fdfdfd;
 }
 
 footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(129, 211, 234, 0.4);
 	display: flex;
+	padding: 2rem 0;
 	flex-direction: row;
-	width: 60%;
-	margin: 0 auto;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	font-size: 0.8rem;
 }
 
 footer .col {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 }
 
 footer .col .footer-title {
 	font-size: 1rem;
 	font-weight: 600;
+	margin-bottom: 1rem;
+	font-style: italic;
+}
+
+.social {
+	display: flex;
+	gap: 0.6rem;
+}
+
+.social a i {
+	font-size: 1.2rem;
 }
