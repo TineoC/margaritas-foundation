@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
 
 * {
 	font-family: "Roboto", sans-serif;
@@ -6,7 +6,7 @@
 
 .content {
 	width: 90%;
-	margin: 0 auto;
+	margin: 1rem auto;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 	color: inherit;
 }
 
-.links a:hover {
+a:hover {
 	text-decoration: underline;
 }
 
@@ -27,4 +27,29 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	font-weight: bolder;
+}
+
+body {
+	background-color: rgba(129, 211, 234, 0.4);
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.8rem;
+}
+
+footer .col {
+	display: flex;
+	flex-direction: column;
+}
+
+footer .col .footer-title {
+	font-size: 1rem;
+	font-weight: 600;
 }
