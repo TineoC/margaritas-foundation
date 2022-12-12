@@ -5,30 +5,29 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Frandy Portfolio</title>
-	<link rel="stylesheet" href="./styles/index.css">
+	<link rel="shortcut icon" href="./media/pictures/favicon.ico" type="image/x-icon">
+	<title>Las Margaritas Foundation</title>
 	<link rel="stylesheet" href="./styles/normalize.css">
+	<link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
 
 </body>
 <div class="content">
-	<nav class="navbar">
+	<nav class="flex-row navbar">
 		<img
 			src="http://nebula.wsimg.com/8aec205360ffdb9ce767d0b76af10d12?AccessKeyId=27EFB8618C805225BA3A&disposition=0&alloworigin=1"
 			width="300" alt="" srcset="">
 
 		<div class="links">
-			<div class="pages">
+			<div class="flex-row pages">
 				<a href="./pages/team.html">Nuestro Equipo</a>
 				<a href="./pages/contact.html">Contáctanos</a>
-				<form action="https://www.paypal.com/donate" method="post" target="_top">
-					<input type="hidden" name="hosted_button_id" value="NPAH6NDKE5F96" />
-					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
-						title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-					<img alt="" border="0" src="https://www.paypal.com/en_DO/i/scr/pixel.gif" width="1" height="1" />
-				</form>
+				<a class="donate" target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=NPAH6NDKE5F96">
+					Donar
+					<i class="fa-solid fa-circle-dollar-to-slot"></i>
+				</a>
 			</div>
 			<div class="social">
 				<a target="_blank" href="https://www.instagram.com/fundacionlasmargaritass/?igshid=MDM4ZDc5MmU%3D"> <i
@@ -44,16 +43,34 @@
 	</nav>
 
 	<main>
+		<div class="section" id="who-are-we">
+			<h1 class="section-title">¿Quienes somos?</h1>
+
+			<div class="flex-row">
+				<img id="home-img" src="media/pictures/homepage.jpg" alt="" srcset="">
+				<div class="flex-col">
+					<p>Ayudamos a niños y jóvenes con programas de becas, alfabetización, STEM, campamentos y mucho más.</p>
+
+					<p>Brindamos espacios gratuitos que permiten a los niños sumergirse en el maravilloso mundo de los libros, el
+						arte
+						y la tecnología.</p>
+				</div>
+			</div>
+
+
+
+
+		</div>
+
 		<div loading="lazy" data-mc-src="0cf56851-4469-4c79-b50b-be6dc6eec851#null"></div>
 
 		<script src="https://cdn2.woxo.tech/a.js#6397549dc3886a0ab20a9e98" async data-usrc>
 		</script>
 	</main>
 
-	<footer>
+	<footer class="flex-row">
 		<div class="col">
-			<img src="./media/pictures/logo.png" width="150" alt="" srcset="">
-			&copy; Frandy 2022
+			&copy; Frandy Montas 2022
 		</div>
 		<div class="col">
 			<div class="footer-title">Nosotros</div>
@@ -81,12 +98,10 @@
 			</div>
 
 			<div class="items">
-				<form action="https://www.paypal.com/donate" method="post" target="_top">
-					<input type="hidden" name="hosted_button_id" value="NPAH6NDKE5F96" />
-					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
-						title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-					<img alt="" border="0" src="https://www.paypal.com/en_DO/i/scr/pixel.gif" width="1" height="1" />
-				</form>
+				<a target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=NPAH6NDKE5F96">
+					Donar <i class="fa-solid fa-circle-dollar-to-slot"></i>
+				</a>
+				</a>
 			</div>
 		</div>
 	</footer>
