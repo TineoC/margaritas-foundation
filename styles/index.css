@@ -9,6 +9,10 @@
 	font-family: "Roboto", sans-serif;
 }
 
+body {
+	color: #060606;
+}
+
 .content {
 	margin: 0 auto;
 }
@@ -43,10 +47,10 @@ main {
 }
 
 nav {
+	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 	font-weight: bolder;
-	margin-top: 1rem;
 	font-size: calc(1rem + 0.5vw);
 }
 
@@ -60,8 +64,8 @@ body {
 }
 
 footer {
-	width: 100%;
 	background-color: var(--blue);
+	width: 100%;
 	color: #fff;
 	padding: 2rem 0;
 	justify-content: space-around;
@@ -90,7 +94,7 @@ footer .col .footer-title {
 }
 
 .social a i {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
 
 .flex-row {
@@ -114,16 +118,42 @@ footer .col .footer-title {
 }
 
 #home-img {
-	height: 400px;
+	width: auto;
+	max-width: 30vw;
 	margin-right: 1rem;
 }
 
 .section-title {
 	color: var(--blue);
-	font-size: calc(1.8rem + 0.5vw);
+	font-size: calc(2.5rem + 0.5vw);
 }
 
 .section {
-	font-size: calc(0.8rem + 0.5vw);
+	font-size: calc(1.2rem + 0.5vw);
 	text-align: justify;
+}
+
+.text-gold {
+	color: goldenrod;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.videos {
+	display: grid;
+	gap: 1rem;
+	justify-items: center;
+	align-items: center;
+	grid-auto-rows: 1024px;
+	grid-template-columns: repeat(auto-fill, minmax(575px, 1fr));
+}
+
+.tiktok-color {
+	color: #ef2950;
+}
+
+.videos video {
+	height: auto;
 }
