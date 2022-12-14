@@ -1,0 +1,8 @@
+.section {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.flex-row {
+	justify-content: space-between;
+}

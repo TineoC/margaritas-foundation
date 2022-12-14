@@ -47,7 +47,8 @@ main {
 }
 
 nav {
-	width: 100%;
+	width: 90%;
+	margin: 1rem auto;
 	justify-content: space-between;
 	align-items: center;
 	font-weight: bolder;
@@ -100,6 +101,7 @@ footer .col .footer-title {
 .flex-row {
 	display: flex;
 	flex-direction: row;
+	gap: 1rem;
 }
 
 .flex-row-reverse {
@@ -137,6 +139,10 @@ footer .col .footer-title {
 	color: goldenrod;
 }
 
+.text-red {
+	color: red;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -147,7 +153,7 @@ footer .col .footer-title {
 	justify-items: center;
 	align-items: center;
 	grid-auto-rows: 1024px;
-	grid-template-columns: repeat(auto-fill, minmax(575px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
 }
 
 .tiktok-color {
@@ -156,4 +162,9 @@ footer .col .footer-title {
 
 .videos video {
 	height: auto;
+}
+
+.full-width {
+	width: 100%;
+	margin: 0 auto;
 }

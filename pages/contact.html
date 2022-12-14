@@ -8,6 +8,7 @@
 	<title>Contact Page</title>
 	<link rel="stylesheet" href="../styles/normalize.css">
 	<link rel="stylesheet" href="../styles/index.css">
+	<link rel="stylesheet" href="../styles/contact.css">
 </head>
 
 <body>
@@ -34,6 +35,38 @@
 			</div>
 		</div>
 	</nav>
+
+	<main>
+		<form id="contact-form" class="form">
+			<div>
+				<label for="cedula">Cédula</label>
+				<input required min="0" type="number" name="cedula" id="cedula" placeholder="Inserte su cédula...">
+				<span class="result text-red"></span>
+			</div>
+
+			<div>
+				<label for="nombres">Nombres</label>
+				<input required type="text" name="nombres" id="nombres" placeholder="Inserte sus nombres...">
+			</div>
+			<div>
+				<label for="apellidos">Apellidos</label>
+				<input required type="text" name="apellidos" id="apellidos" placeholder="Inserte su apellidos...">
+			</div>
+			<div>
+				<label for="telefono">Número Telefónico</label>
+				<input type="tel" name="telefono" id="telefono" placeholder="Inserte su número telefónico...">
+			</div>
+			<textarea name="" id="" cols="30" rows="10" placeholder="Escriba alguna descripción..."></textarea>
+
+			<div>
+				<label for="terms-conditions"> <input required type="checkbox" name="terms-conditions" id="terms-conditions">
+					Acepta los <a target="_blank" href="./terms.html">términos y condiciones?</a>
+				</label>
+			</div>
+			<input type="submit" value="Enviar">
+		</form>
+	</main>
 </body>
+<script type="module" src="../script/contact.js"></script>
 
 </html>

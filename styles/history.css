@@ -1,0 +1,12 @@
+.section {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#history-img {
+	width: calc(40% + 2vw);
+}
+
+.underline {
+	text-decoration: underline;
+}
